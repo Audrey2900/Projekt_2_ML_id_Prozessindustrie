@@ -54,7 +54,9 @@ def prepare_trained_model_local(filename='trained_models.zip', save_path='traine
 - `trained_models.zip` enthält historische OD-Modelle.  
 - Nach Extraktion kann `select_model()` die **Top-Modelle** für neue Datensätze vorhersagen.
 
-### Workflow
+## Funktionsweise Code
+
+### Schrittweise Unterteilung Code
 
 #### 1. Daten vorbereiten
 - CSV laden, Zeitstempel konvertieren, Anomalien markieren  
@@ -94,7 +96,7 @@ Modell-Performance vorhersagen
 ↓
 Bestes Modell auswählen & trainieren
 
-### Referenzen
+## Referenzen
 
 - [Zhao et al., *Automating Outlier Detection via Meta-Learning*, 2021](https://arxiv.org/pdf/2009.10606)
 - [MetaOD GitHub Code](https://github.com/yzhao062/MetaOD/tree/master)
