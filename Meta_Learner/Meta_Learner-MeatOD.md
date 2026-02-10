@@ -82,19 +82,19 @@ def prepare_trained_model_local(filename='trained_models.zip', save_path='traine
 - Metriken: Accuracy, Recall, F1-Score, Average Precision
 
 
-### Kurzdiagramm
+## Lernmethode von Meta-OD
 
-Historische Datasets + Modellperformances
-↓ (offline Training)
-Meta-Learner + Embeddings (U,V) lernen
-↓
-Neue Daten (Meta-Features)
-↓
-Embeddings für neuen Datensatz berechnen
-↓
-Modell-Performance vorhersagen
-↓
-Bestes Modell auswählen & trainieren
+Historische Datasets + Modellperformances  
+↓ (offline Training)  
+Meta-Learner + Embeddings (U,V) lernen  
+↓  
+Neue Daten (Meta-Features)  
+↓  
+Embeddings für neuen Datensatz berechnen  
+↓  
+Modell-Performance vorhersagen  
+↓  
+Bestes Modell auswählen & trainieren  
 
 ## Referenzen
 
