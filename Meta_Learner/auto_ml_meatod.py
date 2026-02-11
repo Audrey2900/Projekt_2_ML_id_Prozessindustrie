@@ -39,7 +39,7 @@ from metaod.models.gen_meta_features import generate_meta_features
 # -------------------------
 # 1. Daten laden und vorbereiten
 # -------------------------
-df = pd.read_csv("Daten_Übung_2/SmA-Four-Tank-Batch-Process_V2.csv", delimiter=";")
+df = pd.read_csv("data/SmA-Four-Tank-Batch-Process_V2.csv", delimiter=";")
 df["timestamp"] = pd.to_datetime(df["timestamp"])
 
 # Anomalien markieren
