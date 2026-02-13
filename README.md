@@ -70,7 +70,7 @@ Abschließend wurde **Meta-Learning** mit **MetaOD** eingesetzt:
 ## Evaluationsmetriken
 
 - **F1-Score** dient als primäre Bewertungsmetrik
-- Kombination von **Precision** und **Recall** macht ihn ideal für Anomalieerkennung, bei der sowohl Fehlalarme als auch verpasste Anomalien relevant sind
+- Kombination von **Precision** und **Recall** macht ihn ideal für Anomalieerkennung, bei der sowohl Fehlalarme als auch verpasste Anomalien relevant sind 
 
 ---
 
