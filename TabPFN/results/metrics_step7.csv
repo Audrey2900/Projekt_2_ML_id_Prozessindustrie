@@ -1,0 +1,3 @@
+CuStepNo ValueY,dataset_size,n_features,n_anom,n_normal,threshold_percentile,threshold_value,accuracy,precision,recall,f1
+7,100,24,10,90,90,1.7417192526098978e-21,0.84,0.2,0.2,0.2
+7,1000,26,100,900,90,3.1944971841391112e-12,0.876,0.38,0.38,0.38
