@@ -82,17 +82,34 @@ Abschließend wurde **Meta-Learning** mit **MetaOD** eingesetzt:
 
 ## Setup
 
-### Standard Pipeline (Baseline + AutoML)
+### Standard-Pipeline (Baseline + AutoML)
 
-Empfohlene Python Version:
+**Empfohlene Python-Version:**  
+- Python 3.10 oder 3.11  
 
-- Python 3.10 oder 3.11
+### Installation
 
-Installation:
+Virtuelle Umgebung erstellen und aktivieren:
 
-"python -m venv venv"  
-"source venv/bin/activate"  *(Windows: venv\Scripts\activate)*  
-"pip install -r requirements.txt"
+```bash
+python -m venv venv
+source venv/bin/activate      # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### Nutzung des Datensatzes
+
+Für die Verwendung des Datensatzes ist **Git LFS** erforderlich.
+
+Bitte einmalig folgende Befehle ausführen:
+
+```bash
+git lfs install
+git lfs pull
+```
+
+Dadurch wird das vollständige Dataset heruntergeladen.
+Ohne diesen Schritt kann der Datensatz im Code nicht korrekt geladen werden, da große Dateien über Git LFS verwaltet werden.
 
 ---
 
@@ -100,6 +117,15 @@ Installation:
 
 - Eigenes Setup im Ordner `meta_learning/`  
 - Separate Python-Umgebung notwendig  
+- Weitere Anweisungen siehe dortige README
+
+
+---
+
+### TabPFN Setup
+
+- Eigenes Setup im Ordner `TabPFN/`  
+- HuggingFace-Account notwendig
 - Weitere Anweisungen siehe dortige README
 
 ---
