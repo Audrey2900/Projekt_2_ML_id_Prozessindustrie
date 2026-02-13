@@ -57,7 +57,7 @@ y_all = df[label_col]
 
 # Train/Test Split
 X_train_full, X_test, y_train_full, y_test = train_test_split(
-    X_all, y_all, test_size=0.1, random_state=42, stratify=y_all
+    X_all, y_all, test_size=0.2, shuffle=False, stratify=None
 )
 
 # Nur Good-Daten für Training verwenden
